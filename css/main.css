@@ -36,7 +36,7 @@ button {
 
 button:hover {
   background-color: rgb(146, 146, 146);
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 button:active {
