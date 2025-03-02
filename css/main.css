@@ -33,6 +33,10 @@ button {
     height: 25px;
 
 }
+button a {
+  text-decoration: none; /* Убираем подчеркивание текста внутри кнопки */
+  color: inherit; /* Наследуем цвет текста от кнопки */
+}
 
 button:hover {
   background-color: rgb(146, 146, 146);
