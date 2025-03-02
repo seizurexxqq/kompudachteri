@@ -36,11 +36,14 @@ button {
 
 button:hover {
   background-color: rgb(146, 146, 146);
+    text-decoration: none;
+    
   
 }
 
 button:active {
   color:rgb(73, 73, 73);
+    text-decoration: none;
   
 }
 
