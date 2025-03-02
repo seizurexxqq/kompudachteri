@@ -1,0 +1,46 @@
+body {
+    margin: 0; /* Убираем отступы по умолчанию */
+    padding: 0;
+    height: 100vh; /* Высота всего окна */
+}
+
+.background {
+    background-image: url('../images/fon.jpg'); /* Фоновое изображение */
+    background-size: cover; /* Масштабируем фон */
+    background-position: center; /* Центрируем фон */
+    background-repeat: no-repeat; /* Не повторяем фон */
+    position: relative; /* Устанавливаем позицию для дочерних элементов */
+    height: 100%; /* Фон будет на всю высоту */
+    display: flex;
+    justify-content: center; /* Центрируем содержимое по горизонтали */
+    align-items: center; /* Центрируем содержимое по вертикали */
+}
+
+.content {
+    background-color: rgba(255, 255, 255, 0.8); /* Белый фон с прозрачностью */
+    padding: 30px; /* Отступы вокруг содержимого */
+    border-radius: 10px; /* Скругленные углы */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Тень для выделения */
+    width: 80%; /* Ширина окна (можно изменять) */
+    max-width: 600px; /* Максимальная ширина */
+}
+button {
+  color:rgb(0, 0, 0);
+  background-color: rgb(180, 179, 179);
+  text-decoration: none;
+    border-radius: 15px;
+    width: 150px;
+    height: 25px;
+
+}
+
+button:hover {
+  background-color: rgb(146, 146, 146);
+  text-decoration: underline;
+}
+
+button:active {
+  color:rgb(73, 73, 73);
+  text-decoration: none;
+}
+
